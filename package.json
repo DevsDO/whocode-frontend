@@ -1,7 +1,7 @@
 {
   "name": "whocode",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Frontend Application to whocode ecosystem ",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
