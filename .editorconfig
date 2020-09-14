@@ -19,7 +19,3 @@ indent_size = 2
 [{.eslintrc,.scss-lint.yml}]
 indent_style = space
 indent_size = 2
-
-[*.{scss,sass}]
-indent_style = space
-indent_size = 2
