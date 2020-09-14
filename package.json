@@ -4,6 +4,8 @@
   "description": "Discovery site for all Dominican developers with their skills and contacts",
   "version": "0.1.0",
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
     "gatsby": "^2.24.50",
     "gatsby-image": "^2.4.16",
     "gatsby-plugin-manifest": "^2.4.24",

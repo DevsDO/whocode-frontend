@@ -4,18 +4,38 @@ module.exports = {
     es6: true,
     jest: true,
   },
-  extends: ["plugin:react/recommended", "airbnb", "prettier", "prettier/react"],
-  plugins: ["react", "prettier"],
+  extends: [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "airbnb",
+    "prettier",
+    "prettier/react",
+  ],
+  plugins: ["prettier", "@typescript-eslint"],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly",
   },
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
+  parser: "@typescript-eslint/parser",
+  settings: {
+    react: {
+      pragma: "React",
+      version: "detect",
     },
-    ecmaVersion: 2018,
-    sourceType: "module",
+    "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"],
+    },
+    "import/resolver": {
+      node: {
+        extensions: [".js", ".jsx", ".ts", ".tsx"],
+      },
+    },
   },
-  rules: {},
+  rules: {
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "error",
+    "no-useless-constructor": "off",
+    "@typescript-eslint/no-useless-constructor": "error",
+  },
 }
