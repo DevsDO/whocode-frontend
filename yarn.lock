@@ -8989,19 +8989,17 @@ gatsby-page-utils@^0.2.23:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-<<<<<<< HEAD
-gatsby-plugin-fontawesome-css@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-fontawesome-css/-/gatsby-plugin-fontawesome-css-1.0.0.tgz#12b0d9e4eb45f9321556e83accfa93fc6627d608"
-  integrity sha512-jToy7WSlNjCtcFWjS7/W1U8jJggKBv2hZhatYyNXELfxvl3eFvuJGlDYYDDKtMzv57N5hbXwUvJ+iW21+FcDOA==
-=======
 gatsby-plugin-alias-imports@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-alias-imports/-/gatsby-plugin-alias-imports-1.0.5.tgz#44c0856d77acb74b58b89ec725dadd8f5d5b327d"
   integrity sha512-q58JrSjuVNh4NApamqElR0zqwm55FOb9vFAVb2i2ftPRu0uYzWJkbOz2IN3vSw7a+5PmGzX7VL8XDFXlNHrMNA==
   dependencies:
     "@babel/runtime" "^7.2.0"
->>>>>>> origin/development
+
+gatsby-plugin-fontawesome-css@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-fontawesome-css/-/gatsby-plugin-fontawesome-css-1.0.0.tgz#12b0d9e4eb45f9321556e83accfa93fc6627d608"
+  integrity sha512-jToy7WSlNjCtcFWjS7/W1U8jJggKBv2hZhatYyNXELfxvl3eFvuJGlDYYDDKtMzv57N5hbXwUvJ+iW21+FcDOA==
 
 gatsby-plugin-manifest@^2.4.24:
   version "2.4.27"
