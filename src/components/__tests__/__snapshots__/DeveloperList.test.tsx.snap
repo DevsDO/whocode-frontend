@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeveloperList renders correctly 1`] = `
+<div>
+  <h2>
+    Devs DO
+  </h2>
+  <h5>
+    This is a test
+  </h5>
+  <div>
+    <h2>
+      Juan Perez
+    </h2>
+    <h3>
+      Developer God
+    </h3>
+    <h4>
+      All of them
+    </h4>
+  </div>
+</div>
+`;
