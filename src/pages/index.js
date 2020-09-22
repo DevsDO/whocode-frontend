@@ -1,32 +1,58 @@
 import React from "react"
 // import { Link } from "gatsby"
-import { graphql } from "gatsby";
+import { graphql } from "gatsby"
 
-import Layout from "../components/layout"
+// import Layout from "../components/layout"
 // import Image from "../components/image"
 // import SEO from "../components/seo"
 
 
 const IndexPage = ({ data }) => (
-  <>
-    <Layout>
-      {data.allDeveloper.nodes.map(developer =>(
-          <p key={developer.id}>hi {developer.name}</p>
+  //#region 
+    // <Layout>
+    //   <SEO title="Home" />
+    //   <h1>Hi people</h1>
+    //   <p>Welcome to your new Gatsby site.</p>
+    //   <p>Now go build something great.</p>
+    //   <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    //     <Image />
+    //   </div>
+    //   <Link to="/page-2/">Go to page 2</Link> <br />
+    //   <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    // </Layout>
+  //#endregion
+
+    // mock layout
+    <>
+      {data.allDeveloper.nodes.map(dev => (
+        <div key={dev.id}>
+          <h1>hi {dev.name}</h1>
+           <p><span>Activities:</span>
+           <br />
+           <p>{dev.summary}</p>
+           <ul>
+            {dev.skills.map(skill => (
+              <li>{skill}</li>
+            ))}
+            </ul>
+           </p>
+        </div>
       ))}
-    </Layout>
-  </>
+    </>
 )
+
+//query 
 export const query = graphql`
-  {
-    allDeveloper {
-      nodes {
-        id
-        name
-        skills
-        summary
-      }
+{
+  allDeveloper {
+    nodes {
+      id
+      name
+      skills
+      summary
     }
   }
+}
 `
 
 export default IndexPage
