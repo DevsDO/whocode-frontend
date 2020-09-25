@@ -3,14 +3,14 @@ import styled from "styled-components"
 import "@fortawesome/fontawesome-free/js/all.js"
 
 type Props = {
-  DeveloperName: string
-  Initials: string
-  Image: string
-  SummaryDeveloper: string
-  SkillsList: string[]
-  WebPage?: string
-  Twitter?: string
-  Github?: string
+  developerName: string
+  initials: string
+  image: string
+  summaryDeveloper: string
+  skillsList: string[]
+  webPage?: string
+  twitter?: string
+  github?: string
   linkedin?: string
 }
 
@@ -148,30 +148,30 @@ const Media = styled.a`
 `
 
 const DeveloperCard: React.FC<Props> = ({
-  DeveloperName,
-  Initials,
-  Image,
-  SkillsList,
-  SummaryDeveloper,
-  WebPage,
-  Github,
-  Twitter,
+  developerName,
+  initials,
+  image,
+  skillsList,
+  summaryDeveloper,
+  webPage,
+  github,
+  twitter,
   linkedin,
 }) => {
   return (
     <CardDiv>
-      <Photo src={Image} />
+      <Photo src={image} />
       <CardContent>
         <NameRow>
           <CicleContainer>
-            <InitialName>{Initials}</InitialName>
+            <InitialName>{initials}</InitialName>
           </CicleContainer>
-          <Name>{DeveloperName}</Name>
+          <Name>{developerName}</Name>
         </NameRow>
 
         <InfoSkill>
           <InfoSpace>
-            {SkillsList.map(skill => (
+            {skillsList.map(skill => (
               <BadgeSkill key={skill}>
                 <Skill>{skill}</Skill>
               </BadgeSkill>
@@ -181,12 +181,12 @@ const DeveloperCard: React.FC<Props> = ({
 
         <Summary>
           <p>
-            <small>{SummaryDeveloper}</small>
+            <small>{summaryDeveloper}</small>
           </p>
         </Summary>
         <SocialNetworks>
-          {WebPage != null && (
-            <Media href={WebPage} target="_blank">
+          {webPage != null && (
+            <Media href={webPage} target="_blank">
               <i className="fas fa-globe-americas"></i>
             </Media>
           )}
@@ -197,14 +197,14 @@ const DeveloperCard: React.FC<Props> = ({
             </Media>
           )}
 
-          {Twitter != null && (
-            <Media href={Twitter} target="_blank">
+          {twitter != null && (
+            <Media href={twitter} target="_blank">
               <i className="fab fa-twitter"></i>
             </Media>
           )}
 
-          {Github != null && (
-            <Media href={Github} target="_blank">
+          {github != null && (
+            <Media href={github} target="_blank">
               <i className="fab fa-github"></i>
             </Media>
           )}
