@@ -15,11 +15,13 @@ type Props = {
 }
 
 const CardDiv = styled.div`
-  border-radius: 1.5rem;
+  margin-bottom: 1rem !important;
+  border: 0 !important;
+  border-radius: 0.5rem;
   box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.03);
   -webkit-transition: transform 375ms ease-in-out, box-shadow 375ms ease-out;
   transition: transform 375ms ease-in-out, box-shadow 375ms ease-out;
-  width: 25%;
+  width: 26%;
 
   &:hover {
     transform: scale(1.05);
@@ -27,6 +29,10 @@ const CardDiv = styled.div`
     background-color: #fff;
     box-shadow: 0 0 20px -2px rgba(0, 0, 0, 0.3);
   }
+`
+
+const PhotoDiv = styled.div`
+  height: 100% !important;
 `
 
 const Photo = styled.img`
@@ -81,18 +87,50 @@ const Name = styled.h6`
 `
 
 const InfoSkill = styled.section`
-  justify-content: center;
   margin: 0.3rem 0;
-  height: 25px;
-  margin-bottom: 3px;
+  height: 35px;
+  overflow: hidden;
+
+  &:hover {
+    overflow: auto;
+  }
+  &::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
+  %::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  }
 `
 
-const InfoSpace = styled(InfoSkill)`
+const InfoSpace = styled.div`
   display: flex;
   overflow: hidden;
-  justify-content: center;
   scrollbar-width: thin;
   padding: 0.2rem;
+
+  &:hover {
+    overflow: auto;
+  }
+  &::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
+  %::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  }
 `
 const BadgeSkill = styled.div`
   height: 20px;
@@ -111,9 +149,10 @@ const BadgeSkill = styled.div`
 `
 const Skill = styled.span``
 
-const Summary = styled.div`
+const SummaryDiv = styled.div`
   height: 100px;
   display: flex;
+  font-size: 75%
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
@@ -136,6 +175,11 @@ const Summary = styled.div`
     border-radius: 10px;
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
   }
+`
+const Summary = styled.p`
+font-size: 80%
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace !important;
 `
 
 const SocialNetworks = styled.div`
@@ -160,7 +204,9 @@ const DeveloperCard: React.FC<Props> = ({
 }) => {
   return (
     <CardDiv>
-      <Photo src={image} />
+      <PhotoDiv>
+        <Photo src={image} />
+      </PhotoDiv>
       <CardContent>
         <NameRow>
           <CicleContainer>
@@ -179,11 +225,11 @@ const DeveloperCard: React.FC<Props> = ({
           </InfoSpace>
         </InfoSkill>
 
-        <Summary>
-          <p>
+        <SummaryDiv>
+          <Summary>
             <small>{summaryDeveloper}</small>
-          </p>
-        </Summary>
+          </Summary>
+        </SummaryDiv>
         <SocialNetworks>
           {webPage != null && (
             <Media href={webPage} target="_blank">
