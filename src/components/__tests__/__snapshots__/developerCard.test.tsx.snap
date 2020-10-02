@@ -1,0 +1,569 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on DeveloperCard render without social media props 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-bdnylx dCFMFm"
+      >
+        <div
+          class="sc-gtssRu bOKgvc"
+        >
+          <img
+            class="sc-dlnjPT cVlQYq"
+            src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Juan_Perez_July_2013.jpg"
+          />
+        </div>
+        <div
+          class="sc-hKFyIo hgnyMS"
+        >
+          <div
+            class="sc-eCApGN gJjZrL"
+          >
+            <div
+              class="sc-gKAblj dHEA-Dt"
+            >
+              <h6
+                class="sc-jSFkmK bcqalb"
+              >
+                JR
+              </h6>
+            </div>
+            <h6
+              class="sc-iCoHVE buvtCW"
+            >
+              Jose Reyes Campusano
+            </h6>
+          </div>
+          <section
+            class="sc-fujyUd dPZDpE"
+          >
+            <div
+              class="sc-pNWxx fTZOGN"
+            >
+              <div
+                class="sc-jrsJCI bQdSRF"
+              >
+                <span
+                  class="sc-kEqYlL"
+                >
+                  React
+                </span>
+              </div>
+              <div
+                class="sc-jrsJCI bQdSRF"
+              >
+                <span
+                  class="sc-kEqYlL"
+                >
+                  Flutter
+                </span>
+              </div>
+              <div
+                class="sc-jrsJCI bQdSRF"
+              >
+                <span
+                  class="sc-kEqYlL"
+                >
+                  C#
+                </span>
+              </div>
+              <div
+                class="sc-jrsJCI bQdSRF"
+              >
+                <span
+                  class="sc-kEqYlL"
+                >
+                  Swift
+                </span>
+              </div>
+              <div
+                class="sc-jrsJCI bQdSRF"
+              >
+                <span
+                  class="sc-kEqYlL"
+                >
+                  Kotlin
+                </span>
+              </div>
+            </div>
+          </section>
+          <div
+            class="sc-iqAbSa erTgNx"
+          >
+            <p
+              class="sc-crzoUp iLMWkX"
+            >
+              <small>
+                Senior Front-end Developer | Web Designer | Hardcore Gamer | I am passionate about building scalable and appealing software
+              </small>
+            </p>
+          </div>
+          <div
+            class="sc-dIsAE dtNxcQ"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bdnylx dCFMFm"
+    >
+      <div
+        class="sc-gtssRu bOKgvc"
+      >
+        <img
+          class="sc-dlnjPT cVlQYq"
+          src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Juan_Perez_July_2013.jpg"
+        />
+      </div>
+      <div
+        class="sc-hKFyIo hgnyMS"
+      >
+        <div
+          class="sc-eCApGN gJjZrL"
+        >
+          <div
+            class="sc-gKAblj dHEA-Dt"
+          >
+            <h6
+              class="sc-jSFkmK bcqalb"
+            >
+              JR
+            </h6>
+          </div>
+          <h6
+            class="sc-iCoHVE buvtCW"
+          >
+            Jose Reyes Campusano
+          </h6>
+        </div>
+        <section
+          class="sc-fujyUd dPZDpE"
+        >
+          <div
+            class="sc-pNWxx fTZOGN"
+          >
+            <div
+              class="sc-jrsJCI bQdSRF"
+            >
+              <span
+                class="sc-kEqYlL"
+              >
+                React
+              </span>
+            </div>
+            <div
+              class="sc-jrsJCI bQdSRF"
+            >
+              <span
+                class="sc-kEqYlL"
+              >
+                Flutter
+              </span>
+            </div>
+            <div
+              class="sc-jrsJCI bQdSRF"
+            >
+              <span
+                class="sc-kEqYlL"
+              >
+                C#
+              </span>
+            </div>
+            <div
+              class="sc-jrsJCI bQdSRF"
+            >
+              <span
+                class="sc-kEqYlL"
+              >
+                Swift
+              </span>
+            </div>
+            <div
+              class="sc-jrsJCI bQdSRF"
+            >
+              <span
+                class="sc-kEqYlL"
+              >
+                Kotlin
+              </span>
+            </div>
+          </div>
+        </section>
+        <div
+          class="sc-iqAbSa erTgNx"
+        >
+          <p
+            class="sc-crzoUp iLMWkX"
+          >
+            <small>
+              Senior Front-end Developer | Web Designer | Hardcore Gamer | I am passionate about building scalable and appealing software
+            </small>
+          </p>
+        </div>
+        <div
+          class="sc-dIsAE dtNxcQ"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Test on DeveloperCard renders card with initial data 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-bdnylx dCFMFm"
+      >
+        <div
+          class="sc-gtssRu bOKgvc"
+        >
+          <img
+            class="sc-dlnjPT cVlQYq"
+            src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Juan_Perez_July_2013.jpg"
+          />
+        </div>
+        <div
+          class="sc-hKFyIo hgnyMS"
+        >
+          <div
+            class="sc-eCApGN gJjZrL"
+          >
+            <div
+              class="sc-gKAblj dHEA-Dt"
+            >
+              <h6
+                class="sc-jSFkmK bcqalb"
+              >
+                JR
+              </h6>
+            </div>
+            <h6
+              class="sc-iCoHVE buvtCW"
+            >
+              Jose Reyes Campusano
+            </h6>
+          </div>
+          <section
+            class="sc-fujyUd dPZDpE"
+          >
+            <div
+              class="sc-pNWxx fTZOGN"
+            >
+              <div
+                class="sc-jrsJCI bQdSRF"
+              >
+                <span
+                  class="sc-kEqYlL"
+                >
+                  React
+                </span>
+              </div>
+              <div
+                class="sc-jrsJCI bQdSRF"
+              >
+                <span
+                  class="sc-kEqYlL"
+                >
+                  Flutter
+                </span>
+              </div>
+              <div
+                class="sc-jrsJCI bQdSRF"
+              >
+                <span
+                  class="sc-kEqYlL"
+                >
+                  C#
+                </span>
+              </div>
+              <div
+                class="sc-jrsJCI bQdSRF"
+              >
+                <span
+                  class="sc-kEqYlL"
+                >
+                  Swift
+                </span>
+              </div>
+              <div
+                class="sc-jrsJCI bQdSRF"
+              >
+                <span
+                  class="sc-kEqYlL"
+                >
+                  Kotlin
+                </span>
+              </div>
+            </div>
+          </section>
+          <div
+            class="sc-iqAbSa erTgNx"
+          >
+            <p
+              class="sc-crzoUp iLMWkX"
+            >
+              <small>
+                Senior Front-end Developer | Web Designer | Hardcore Gamer | I am passionate about building scalable and appealing software
+              </small>
+            </p>
+          </div>
+          <div
+            class="sc-dIsAE dtNxcQ"
+          >
+            <a
+              class="sc-bqGHjH eGmdMK"
+              href="https://www.linkedin.com/in/linkeindTest/"
+              target="_blank"
+            >
+              <i
+                class="fab fa-linkedin-in"
+              />
+            </a>
+            <a
+              class="sc-bqGHjH eGmdMK"
+              href="https://twitter.com/TwitterTest"
+              target="_blank"
+            >
+              <i
+                class="fab fa-twitter"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bdnylx dCFMFm"
+    >
+      <div
+        class="sc-gtssRu bOKgvc"
+      >
+        <img
+          class="sc-dlnjPT cVlQYq"
+          src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Juan_Perez_July_2013.jpg"
+        />
+      </div>
+      <div
+        class="sc-hKFyIo hgnyMS"
+      >
+        <div
+          class="sc-eCApGN gJjZrL"
+        >
+          <div
+            class="sc-gKAblj dHEA-Dt"
+          >
+            <h6
+              class="sc-jSFkmK bcqalb"
+            >
+              JR
+            </h6>
+          </div>
+          <h6
+            class="sc-iCoHVE buvtCW"
+          >
+            Jose Reyes Campusano
+          </h6>
+        </div>
+        <section
+          class="sc-fujyUd dPZDpE"
+        >
+          <div
+            class="sc-pNWxx fTZOGN"
+          >
+            <div
+              class="sc-jrsJCI bQdSRF"
+            >
+              <span
+                class="sc-kEqYlL"
+              >
+                React
+              </span>
+            </div>
+            <div
+              class="sc-jrsJCI bQdSRF"
+            >
+              <span
+                class="sc-kEqYlL"
+              >
+                Flutter
+              </span>
+            </div>
+            <div
+              class="sc-jrsJCI bQdSRF"
+            >
+              <span
+                class="sc-kEqYlL"
+              >
+                C#
+              </span>
+            </div>
+            <div
+              class="sc-jrsJCI bQdSRF"
+            >
+              <span
+                class="sc-kEqYlL"
+              >
+                Swift
+              </span>
+            </div>
+            <div
+              class="sc-jrsJCI bQdSRF"
+            >
+              <span
+                class="sc-kEqYlL"
+              >
+                Kotlin
+              </span>
+            </div>
+          </div>
+        </section>
+        <div
+          class="sc-iqAbSa erTgNx"
+        >
+          <p
+            class="sc-crzoUp iLMWkX"
+          >
+            <small>
+              Senior Front-end Developer | Web Designer | Hardcore Gamer | I am passionate about building scalable and appealing software
+            </small>
+          </p>
+        </div>
+        <div
+          class="sc-dIsAE dtNxcQ"
+        >
+          <a
+            class="sc-bqGHjH eGmdMK"
+            href="https://www.linkedin.com/in/linkeindTest/"
+            target="_blank"
+          >
+            <i
+              class="fab fa-linkedin-in"
+            />
+          </a>
+          <a
+            class="sc-bqGHjH eGmdMK"
+            href="https://twitter.com/TwitterTest"
+            target="_blank"
+          >
+            <i
+              class="fab fa-twitter"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
