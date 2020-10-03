@@ -1,6 +1,12 @@
 import React from "react"
 import styled from "styled-components"
-import "@fortawesome/fontawesome-free/js/all.js"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faGithub,
+  faLinkedin,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons"
+import { faGlobeAmericas } from "@fortawesome/free-solid-svg-icons"
 
 type Props = {
   developerName: string
@@ -183,7 +189,7 @@ font-size: 80%
 `
 
 const SocialNetworks = styled.div`
-  font-size: large;
+  font-size: x-large;
 `
 
 const Media = styled.a`
@@ -233,25 +239,25 @@ const DeveloperCard: React.FC<Props> = ({
         <SocialNetworks>
           {webPage != null && (
             <Media href={webPage} target="_blank">
-              <i className="fas fa-globe-americas"></i>
+              <FontAwesomeIcon icon={faGlobeAmericas} />
             </Media>
           )}
 
           {linkedin != null && (
             <Media href={linkedin} target="_blank">
-              <i className="fab fa-linkedin-in"></i>
+              <FontAwesomeIcon icon={faLinkedin} />
             </Media>
           )}
 
           {twitter != null && (
             <Media href={twitter} target="_blank">
-              <i className="fab fa-twitter"></i>
+              <FontAwesomeIcon icon={faTwitter} />
             </Media>
           )}
 
           {github != null && (
             <Media href={github} target="_blank">
-              <i className="fab fa-github"></i>
+              <FontAwesomeIcon icon={faGithub} />
             </Media>
           )}
         </SocialNetworks>
