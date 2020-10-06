@@ -5,7 +5,6 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
-    require.resolve(`./source-plugin`),
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -13,12 +12,6 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
-    },
-    {
-      resolve: 'gatsby-plugin-apollo',
-      options: {
-        uri: `https://raw.githubusercontent.com/AngelGarcia13/DominicanWhoCodes/master/DWC.Blazor/wwwroot/data/developers.json`,
-      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
