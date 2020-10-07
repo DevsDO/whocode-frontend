@@ -237,25 +237,24 @@ const DeveloperCard: React.FC<Props> = ({
           </Summary>
         </SummaryDiv>
         <SocialNetworks>
-          {webPage !== null && (
+          {webPage && (
             <Media href={webPage} target="_blank">
               <FontAwesomeIcon icon={faGlobeAmericas} />
             </Media>
           )}
 
-          {linkedin !== null && (
+          {linkedin && (
             <Media href={linkedin} target="_blank">
               <FontAwesomeIcon icon={faLinkedin} />
             </Media>
           )}
 
-          {twitter !== null && (
+          {twitter && (
             <Media href={twitter} target="_blank">
               <FontAwesomeIcon icon={faTwitter} />
             </Media>
           )}
-
-          {github !== null && (
+          {github && (
             <Media href={github} target="_blank">
               <FontAwesomeIcon icon={faGithub} />
             </Media>
