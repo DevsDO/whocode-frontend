@@ -2,84 +2,84 @@
 
 exports[`Test on DeveloperCard render without social media props 1`] = `
 <div
-  className="sc-bdnylx dCFMFm"
+  className="sc-bdfBwQ iwnhNC"
 >
   <div
-    className="sc-gtssRu bOKgvc"
+    className="sc-gsTCUz bwqqht"
   >
     <img
-      className="sc-dlnjPT cVlQYq"
+      className="sc-dlfnbm cRGvts"
       src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Juan_Perez_July_2013.jpg"
     />
   </div>
   <div
-    className="sc-hKFyIo hgnyMS"
+    className="sc-hKgILt gnheQc"
   >
     <div
-      className="sc-eCApGN gJjZrL"
+      className="sc-eCssSg imIqOK"
     >
       <div
-        className="sc-gKAblj dHEA-Dt"
+        className="sc-gKsewC iESJdf"
       >
         <h6
-          className="sc-jSFkmK bcqalb"
+          className="sc-jSgupP cGopmf"
         >
           JR
         </h6>
       </div>
       <h6
-        className="sc-iCoHVE buvtCW"
+        className="sc-iBPRYJ cgEpgn"
       >
         Jose Reyes Campusano
       </h6>
     </div>
     <section
-      className="sc-fujyUd dPZDpE"
+      className="sc-fubCfw ktFIND"
     >
       <div
-        className="sc-pNWxx fTZOGN"
+        className="sc-pFZIQ fWeTvN"
       >
         <div
-          className="sc-jrsJCI bQdSRF"
+          className="sc-jrAGrp kfjuIf"
         >
           <span
-            className="sc-kEqYlL"
+            className="sc-kEjbxe"
           >
             React
           </span>
         </div>
         <div
-          className="sc-jrsJCI bQdSRF"
+          className="sc-jrAGrp kfjuIf"
         >
           <span
-            className="sc-kEqYlL"
+            className="sc-kEjbxe"
           >
             Flutter
           </span>
         </div>
         <div
-          className="sc-jrsJCI bQdSRF"
+          className="sc-jrAGrp kfjuIf"
         >
           <span
-            className="sc-kEqYlL"
+            className="sc-kEjbxe"
           >
             C#
           </span>
         </div>
         <div
-          className="sc-jrsJCI bQdSRF"
+          className="sc-jrAGrp kfjuIf"
         >
           <span
-            className="sc-kEqYlL"
+            className="sc-kEjbxe"
           >
             Swift
           </span>
         </div>
         <div
-          className="sc-jrsJCI bQdSRF"
+          className="sc-jrAGrp kfjuIf"
         >
           <span
-            className="sc-kEqYlL"
+            className="sc-kEjbxe"
           >
             Kotlin
           </span>
@@ -87,10 +87,10 @@ exports[`Test on DeveloperCard render without social media props 1`] = `
       </div>
     </section>
     <div
-      className="sc-iqAbSa erTgNx"
+      className="sc-iqHYGH kGaQZX"
     >
       <p
-        className="sc-crzoUp iLMWkX"
+        className="sc-crrsfI viyyM"
       >
         <small>
           Senior Front-end Developer | Web Designer | Hardcore Gamer | I am passionate about building scalable and appealing software
@@ -98,7 +98,7 @@ exports[`Test on DeveloperCard render without social media props 1`] = `
       </p>
     </div>
     <div
-      className="sc-dIsAE iQfex"
+      className="sc-dQppl hdpMsT"
     />
   </div>
 </div>
@@ -106,84 +106,84 @@ exports[`Test on DeveloperCard render without social media props 1`] = `
 
 exports[`Test on DeveloperCard renders card with initial data 1`] = `
 <div
-  className="sc-bdnylx dCFMFm"
+  className="sc-bdfBwQ iwnhNC"
 >
   <div
-    className="sc-gtssRu bOKgvc"
+    className="sc-gsTCUz bwqqht"
   >
     <img
-      className="sc-dlnjPT cVlQYq"
+      className="sc-dlfnbm cRGvts"
       src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Juan_Perez_July_2013.jpg"
     />
   </div>
   <div
-    className="sc-hKFyIo hgnyMS"
+    className="sc-hKgILt gnheQc"
   >
     <div
-      className="sc-eCApGN gJjZrL"
+      className="sc-eCssSg imIqOK"
     >
       <div
-        className="sc-gKAblj dHEA-Dt"
+        className="sc-gKsewC iESJdf"
       >
         <h6
-          className="sc-jSFkmK bcqalb"
+          className="sc-jSgupP cGopmf"
         >
           JR
         </h6>
       </div>
       <h6
-        className="sc-iCoHVE buvtCW"
+        className="sc-iBPRYJ cgEpgn"
       >
         Jose Reyes Campusano
       </h6>
     </div>
     <section
-      className="sc-fujyUd dPZDpE"
+      className="sc-fubCfw ktFIND"
     >
       <div
-        className="sc-pNWxx fTZOGN"
+        className="sc-pFZIQ fWeTvN"
       >
         <div
-          className="sc-jrsJCI bQdSRF"
+          className="sc-jrAGrp kfjuIf"
         >
           <span
-            className="sc-kEqYlL"
+            className="sc-kEjbxe"
           >
             React
           </span>
         </div>
         <div
-          className="sc-jrsJCI bQdSRF"
+          className="sc-jrAGrp kfjuIf"
         >
           <span
-            className="sc-kEqYlL"
+            className="sc-kEjbxe"
           >
             Flutter
           </span>
         </div>
         <div
-          className="sc-jrsJCI bQdSRF"
+          className="sc-jrAGrp kfjuIf"
         >
           <span
-            className="sc-kEqYlL"
+            className="sc-kEjbxe"
           >
             C#
           </span>
         </div>
         <div
-          className="sc-jrsJCI bQdSRF"
+          className="sc-jrAGrp kfjuIf"
         >
           <span
-            className="sc-kEqYlL"
+            className="sc-kEjbxe"
           >
             Swift
           </span>
         </div>
         <div
-          className="sc-jrsJCI bQdSRF"
+          className="sc-jrAGrp kfjuIf"
         >
           <span
-            className="sc-kEqYlL"
+            className="sc-kEjbxe"
           >
             Kotlin
           </span>
@@ -191,10 +191,10 @@ exports[`Test on DeveloperCard renders card with initial data 1`] = `
       </div>
     </section>
     <div
-      className="sc-iqAbSa erTgNx"
+      className="sc-iqHYGH kGaQZX"
     >
       <p
-        className="sc-crzoUp iLMWkX"
+        className="sc-crrsfI viyyM"
       >
         <small>
           Senior Front-end Developer | Web Designer | Hardcore Gamer | I am passionate about building scalable and appealing software
@@ -202,10 +202,10 @@ exports[`Test on DeveloperCard renders card with initial data 1`] = `
       </p>
     </div>
     <div
-      className="sc-dIsAE iQfex"
+      className="sc-dQppl hdpMsT"
     >
       <a
-        className="sc-bqGHjH eGmdMK"
+        className="sc-bqyKva eAzuCv"
         href="https://www.linkedin.com/in/linkeindTest/"
         target="_blank"
       >
@@ -228,7 +228,7 @@ exports[`Test on DeveloperCard renders card with initial data 1`] = `
         </svg>
       </a>
       <a
-        className="sc-bqGHjH eGmdMK"
+        className="sc-bqyKva eAzuCv"
         href="https://twitter.com/TwitterTest"
         target="_blank"
       >
