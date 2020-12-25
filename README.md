@@ -4,6 +4,8 @@
 
 Sitio para **descubrir** todos los desarrolladores Dominicanos con sus habilidades y contactos.
 
+[Continuous Integration](https://github.com/DevsDO/whocode-frontend/workflows/CI/badge.svg)
+
 ## Empezando
 
 ### Prerequisitos

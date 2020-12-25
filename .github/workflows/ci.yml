@@ -1,0 +1,32 @@
+name: CI
+
+on: 
+  push:
+    branches:
+      - development
+      - stage
+      - master
+  pull_request:
+    branches:
+      - development
+      - stage
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@master
+        with:
+          persist-credentials: false
+
+      - name: Install 🔧
+        run: yarn install
+
+      - name: Build 🏗️
+        run: yarn build
+
+      - name: Test 🚨
+        run: yarn test:ci
