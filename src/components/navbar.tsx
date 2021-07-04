@@ -1,8 +1,9 @@
+import React, {FC} from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub, faOpencart } from "@fortawesome/free-brands-svg-icons"
-import React, { useState } from "react"
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
+
 
 const NavbarContainer = styled.ul<{ open: boolean }>`
   color: black;
@@ -78,7 +79,11 @@ const NominateButton = styled(NavbarButton)`
   }
 `
 
-const Navbar = ({ open }) => {
+type Props = {
+  open: boolean;
+}
+
+const Navbar: FC<Props> = ({ open }) => {
   return (
     <NavbarContainer open={open}>
       <NavbarItem>
