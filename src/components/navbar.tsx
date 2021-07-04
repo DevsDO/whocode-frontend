@@ -103,7 +103,5 @@ const Navbar = ({ open }) => {
     </NavbarContainer>
   )
 }
-Navbar.propTypes = {
-  open: PropTypes.bool,
-}
+
 export default Navbar
