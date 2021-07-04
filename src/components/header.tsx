@@ -1,19 +1,18 @@
-import { Link } from "gatsby"
+import { Link } from "gatsby";
 
-import PropTypes from "prop-types"
-import React, { useState } from "react"
-import styled from "styled-components"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
-import { faBars } from "@fortawesome/free-solid-svg-icons"
-import Navbar from "./navbar"
+import React, { useState, FC } from "react";
+import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import Navbar from "./navbar";
 const HeaderContent = styled.header`
   background: #ffffff;
   height: 3.2em;
   display: flex;
   align-content: center;
   box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.4);
-`
+`;
 
 const Nav = styled.nav`
   display: flex;
@@ -26,7 +25,7 @@ const Nav = styled.nav`
   #nav-toggle {
     position: absolute;
   }
-`
+`;
 
 const NavbarBrand = styled.span`
   font-size: 1.25rem;
@@ -34,7 +33,7 @@ const NavbarBrand = styled.span`
   &:hover {
     cursor: pointer;
   }
-`
+`;
 
 const Title = styled.h5`
   color: #fff;
@@ -46,7 +45,7 @@ const Title = styled.h5`
   font-family: Consolas;
   line-height: 21px;
   font-size: 18px;
-`
+`;
 const NavbarButton = styled.span`
   font-family: Segoe UI;
   font-weight: 700;
@@ -60,17 +59,21 @@ const NavbarButton = styled.span`
   @media screen and (min-width: 992px) {
     color: black;
   }
-`
+`;
 const BurgerButton = styled(NavbarButton)`
   display: none;
   @media (max-width: 992px) {
     display: block;
   }
   font-size: 28px;
-`
+`;
 
-const Header = ({ siteTitle }) => {
-  const [open, setOpen] = useState(false)
+type Props = {
+  siteTitle: string;
+}
+
+const Header: FC<Props> = ({siteTitle}) => {
+  const [open, setOpen] = useState(false);
 
   return (
     <>
@@ -79,7 +82,7 @@ const Header = ({ siteTitle }) => {
           <NavbarBrand>
             <Link style={{ textDecoration: "none" }} to="/">
               <kbd>
-                <Title>DominicanWho.Codes</Title>
+                <Title>{siteTitle}</Title>
               </kbd>
             </Link>
           </NavbarBrand>
@@ -90,15 +93,7 @@ const Header = ({ siteTitle }) => {
         </Nav>
       </HeaderContent>
     </>
-  )
-}
+  );
+};
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
-
-export default Header
+export default Header;
