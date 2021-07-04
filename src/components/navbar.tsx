@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faOpencart } from "@fortawesome/free-brands-svg-icons"
-import PropTypes from "prop-types"
 import React, { useState } from "react"
 
 const NavbarContainer = styled.ul<{ open: boolean }>`
